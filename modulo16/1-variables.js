@@ -47,4 +47,3 @@ console.log("Mi nacionalidad es", myNacionality)
 console.log("Hola, mi nombre completo es", myFirstName, myLastName)
 console.log("Vivo en", myNacionality, "junto con mi mascota", myPetName)
 */
-

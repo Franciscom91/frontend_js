@@ -38,10 +38,10 @@
 
 // Ejercicio
 
-console.log(null || 2 || undefined) // 2
+// console.log(null || 2 || undefined) // 2
 
-console.log(1 && null && 2) // null
+// console.log(1 && null && 2) // null
 
-console.log(!'Hola') // false
+// console.log(!'Hola') // false
 
-console.log(null || 2 && 3 || 4) // 3??
+// console.log(null || 2 && 3 || 4) // 3?? (PENSÉ QUE IBA A SER 2, CUAC)

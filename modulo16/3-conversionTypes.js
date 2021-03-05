@@ -1,4 +1,4 @@
-// String - Otro valor a string
+// String
 
 // let value = true
 // console.log(typeof value)
@@ -8,7 +8,7 @@
 // let newString = String(value)
 // console.log(`El valor es ${newString}`)
 
-// Number - Otro valor a number
+// Number
 
 // let num = '29'
 // let newNum = Number(num)
