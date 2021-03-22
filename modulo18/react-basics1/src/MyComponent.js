@@ -2,7 +2,7 @@ import React from "react"
 
 // Functional Component
 const MyComponent = () => {
-    return <P>Hola desde mi Functional Component</P>
+    return <p>Hola desde mi Functional Component</p>
 }
 
 // Class Component
