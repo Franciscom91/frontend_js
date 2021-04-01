@@ -10,6 +10,13 @@ const TodoList = () => {
         setTodoValue('')
     }
 
+    const removeTodo = (todoToRemove) => {
+        console.log('Se clickeo')
+        console.log(todoToRemove)
+        const newTodos = todos.filter((todo) => todo !== todoToRemove)
+        setTodos(newTodos)
+    }
+
     console.log(todos)
 
     return <div className="App">
@@ -21,8 +28,11 @@ const TodoList = () => {
     </form>
 
     {
-        todos.map((todo) => {
-            return <div key={todo}> {todo} </div>
+        todos.map((todo, i) => {
+            return <div key={todo + i} className="list-todo">
+                <h3> {todo} </h3>
+                <span className="remove-todo" onClick={() => removeTodo(todo)}>x</span>
+            </div>
         })
     }
     </div>

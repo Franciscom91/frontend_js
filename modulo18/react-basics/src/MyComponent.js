@@ -1,8 +1,12 @@
 import React from "react"
 
+const MyText = () => {
+    return <b>Functional Component</b>
+}
+
 // Functional Component
 const MyComponent = () => {
-    return <p>Hola desde mi Functional Component</p>
+    return <p>Hola desde mi <MyText /></p>
 }
 
 // Class Component
