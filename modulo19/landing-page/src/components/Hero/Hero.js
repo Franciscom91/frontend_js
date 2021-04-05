@@ -4,7 +4,7 @@ import imageSlide from "../../assets/img/slider-1.png"
 
 const Hero = () => {
     return (
-        <section className="hero">
+        <section id="hero" className="hero">
             <Carousel controls={ false }>
                 <Carousel.Item>
                     <img className="d-block w-100" src={ imageSlide } alt="First slide"/>

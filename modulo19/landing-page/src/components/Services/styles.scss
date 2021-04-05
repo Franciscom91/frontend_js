@@ -1,0 +1,16 @@
+.services {
+    height: 768px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .accordion {
+        max-height: 376px;
+        width: 670px;
+        background: #ffffff;
+        border: 1px solid #000000;
+        margin-left: 101px;
+        font-family: $font-family-text;
+    }
+  }
